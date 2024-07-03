@@ -14,8 +14,8 @@ public class Spikes : MonoBehaviour
 
     void Start()
     {
-        initialPosition = transform.position;
-        raisedPosition = new Vector3(transform.position.x, transform.position.y + raisedHeight, transform.position.z);
+        initialPosition = transform.localPosition;
+        raisedPosition = new Vector3(transform.localPosition.x, transform.localPosition.y + raisedHeight, transform.localPosition.z);
         StartCoroutine(SpikeCycle());
     }
 
@@ -33,15 +33,15 @@ public class Spikes : MonoBehaviour
     private IEnumerator MoveSpikes(Vector3 targetPosition, float duration)
     {
         float elapsedTime = 0f;
-        Vector3 startingPosition = transform.position;
+        Vector3 startingPosition = transform.localPosition;
 
         while (elapsedTime < duration)
         {
-            transform.position = Vector3.Lerp(startingPosition, targetPosition, elapsedTime / duration);
+            transform.localPosition = Vector3.Lerp(startingPosition, targetPosition, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = targetPosition;
+        transform.localPosition = targetPosition;
     }
 }

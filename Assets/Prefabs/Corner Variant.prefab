@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4972646199121770947, guid: 03cbe59b684974ec486fd67ba03bdea1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6318258600524448891, guid: 03cbe59b684974ec486fd67ba03bdea1, type: 3}
       propertyPath: m_Name
       value: Corner Variant
@@ -52,7 +56,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4972646199121770947, guid: 03cbe59b684974ec486fd67ba03bdea1, type: 3}
     m_RemovedGameObjects:
     - {fileID: 3889694283994429676, guid: 03cbe59b684974ec486fd67ba03bdea1, type: 3}
     m_AddedGameObjects: []

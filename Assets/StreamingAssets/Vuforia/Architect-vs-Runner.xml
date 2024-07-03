@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="fog" size="10.000000 10.000000" />
     <ImageTarget name="tiny" size="10.000000 10.000000" />
     <ImageTarget name="straight" size="10.000000 10.000000" />
     <ImageTarget name="spikes" size="10.000000 10.000000" />

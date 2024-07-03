@@ -120,6 +120,9 @@ MonoBehaviour:
   _joystick: {fileID: 0}
   _playerModel: {fileID: 4043237310596439494}
   _moveSpeed: 5
+  useGravity: 0
+  ground: {fileID: 0}
+  gravityMultiplier: 2
 --- !u!1001 &4043237310596471654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player_character
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
       propertyPath: m_TagString
