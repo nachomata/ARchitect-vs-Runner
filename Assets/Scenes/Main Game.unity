@@ -728,7 +728,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: start
+  mTrackableName: key
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Architect-vs-Runner.xml
   mAspectRatio: 1
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 814286335}
   mHiddenRoot: {fileID: 0}
-  mTargetName: start
+  mTargetName: key
   mDatasetName: Vuforia/Architect-vs-Runner.xml
   mCastedBehaviour: {fileID: 814286335}
   mMeshFilter: {fileID: 0}

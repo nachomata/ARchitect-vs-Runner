@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="tiny" size="10.000000 10.000000" />
+    <ImageTarget name="straight" size="10.000000 10.000000" />
+    <ImageTarget name="spikes" size="10.000000 10.000000" />
+    <ImageTarget name="slow" size="10.000000 10.000000" />
+    <ImageTarget name="key" size="10.000000 10.000000" />
+    <ImageTarget name="jump" size="10.000000 10.000000" />
+    <ImageTarget name="end" size="10.000000 10.000000" />
+    <ImageTarget name="death" size="10.000000 10.000000" />
+    <ImageTarget name="cross" size="10.000000 10.000000" />
+    <ImageTarget name="corner" size="10.000000 10.000000" />
+    <ImageTarget name="axe" size="10.000000 10.000000" />
     <ImageTarget name="start" size="1000.000000 1000.000000" />
   </Tracking>
 </QCARConfig>
