@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4592445420536462715}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _joystick: {fileID: 0}
   _playerModel: {fileID: 4043237310596439494}
+  speedScale: 1
   _moveSpeed: 5
   useGravity: 0
   ground: {fileID: 0}

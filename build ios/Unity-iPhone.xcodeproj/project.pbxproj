@@ -17,7 +17,7 @@
 		50B00BFEEE4E674B3B146C34 /* UnityDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14FD4B9B7D9D0FACDBEC22A1 /* UnityDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ECD27EDF8EB21168769097 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -194,7 +194,6 @@
 		1972A87589EFBAF4986775C2 /* Generics__65.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__65.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__65.cpp; sourceTree = SOURCE_ROOT; };
 		1A38AA6A19977E422AA98B0B /* Vuforia.Unity.Wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vuforia.Unity.Wrapper.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Wrapper.cpp; sourceTree = SOURCE_ROOT; };
 		1B92F201E0C11B4944DF0F0B /* System.Runtime.Serialization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Runtime.Serialization.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization.cpp; sourceTree = SOURCE_ROOT; };
-		1CEA71E97957AE5C0124DAA6 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = Il2CppOutputProject/Source/il2cppOutput/dummy.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* ArchitectvsRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectvsRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC31C363AA49E88C15788BB /* mscorlib__11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__11.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__11.cpp; sourceTree = SOURCE_ROOT; };
@@ -956,7 +955,6 @@
 				6AFF6ED0A58B111F6AB762A5 /* VuforiaScripts_CodeGen.c */,
 				AED95C519544DEF0103B9C95 /* __Generated.cpp */,
 				8FE3E92069BB36F8854D7277 /* __Generated_CodeGen.c */,
-				1CEA71E97957AE5C0124DAA6 /* dummy.cpp */,
 				4ED0B579112CB1E12AEF01F5 /* mscorlib.cpp */,
 				470F4DBFC6CF22AFB4920379 /* mscorlib_CodeGen.c */,
 				F1F28F611D1E7EE7CCC25F71 /* mscorlib__1.cpp */,
@@ -1308,7 +1306,6 @@
 						UnityMainTarget = 1;
 					};
 					5623C57217FDCB0800090B9E = {
-						DevelopmentTeam = 96UD2ZK2PV;
 						ProvisioningStyle = Manual;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
@@ -1366,7 +1363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E,
+				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1526,7 +1523,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner3";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1566,7 +1563,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner3";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1599,7 +1596,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 96UD2ZK2PV;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1648,7 +1644,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 96UD2ZK2PV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1750,7 +1745,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner3";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1783,7 +1778,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 96UD2ZK2PV;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1878,7 +1872,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Architect-vs-Runner3";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1911,7 +1905,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 96UD2ZK2PV;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2165,6 +2158,16 @@
 					"-ld_classic",
 					"-lc++",
 					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -2241,6 +2244,16 @@
 					"-DUNITY_VERSION_MIN=21",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
 					"-lc++",
 					"-ld_classic",
 					"-lc++",
@@ -2354,6 +2367,16 @@
 					"-ld_classic",
 					"-lc++",
 					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -2432,6 +2455,16 @@
 					"-DUNITY_VERSION_MIN=21",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
+					"-lc++",
+					"-ld_classic",
 					"-lc++",
 					"-ld_classic",
 					"-lc++",
